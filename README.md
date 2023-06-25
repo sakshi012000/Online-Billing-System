@@ -9,7 +9,7 @@ Body (raw, JSON):
 {
   "username": "your_username"
 }
-
+```
 Fetch all products:
 
 Method: GET
@@ -31,7 +31,7 @@ Body (raw, JSON):
   "type": "product",
   "id": "valid_product_id"
 }
-
+```
 Replace valid_product_id with the ID of a product fetched from the previous API call.
 
 Remove an item from the cart:
@@ -44,8 +44,9 @@ Body (raw, JSON):
   "type": "product",
   "id": "valid_product_id"
 }
-
+```
 Replace valid_product_id with the ID of the product to remove from the cart.
+
 Clear the cart:
 
 Method: DELETE
