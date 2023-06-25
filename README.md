@@ -50,11 +50,14 @@ Replace valid_product_id with the ID of the product to remove from the cart.
 Clear the cart:
 
 Method: DELETE
+
 URL: http://localhost:3000/cart/clear
 View the total bill:
 
 Method: GET
 URL: http://localhost:3000/cart/total
+
+
 Fetch all orders (admin only):
 
 Method: GET
